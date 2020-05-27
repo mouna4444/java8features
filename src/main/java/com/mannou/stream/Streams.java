@@ -7,7 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
- * programmation fonctionnelle.
+ * Programmation fonctionnelle.kaka
  */
 public class Streams {
 
@@ -23,12 +23,11 @@ public class Streams {
         }
 
         names.stream()
-                .map(nameToLowerCase())
-                .map(upperCaseFirstCHarOfTheName())
-                .map(saluteThePerson())
-                .forEach(System.out::println);
+             .map(nameToLowerCase())
+             .map(upperCaseFirstCHarOfTheName())
+             .map(saluteThePerson())
+             .forEach(System.out::println);
 
-        // some comments
         List<Integer> numbers = Arrays.asList(1, 3, 78, 89, 90);
         Predicate<Integer> numbersGreaterThan50Predicate = integer -> integer > 50;
         numbers.stream()
