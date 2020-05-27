@@ -7,7 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 /**
- * Programmation fonctionnelle.
+ * Programmation fonctionnelle.kaka
  */
 public class Streams {
 
