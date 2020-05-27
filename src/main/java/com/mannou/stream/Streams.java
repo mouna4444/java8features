@@ -28,7 +28,7 @@ public class Streams {
                 .map(saluteThePerson())
                 .forEach(System.out::println);
 
-        //
+        // some comments
         List<Integer> numbers = Arrays.asList(1, 3, 78, 89, 90);
         Predicate<Integer> numbersGreaterThan50Predicate = integer -> integer > 50;
         numbers.stream()
